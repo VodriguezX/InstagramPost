@@ -1,0 +1,70 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    
+}
+.container{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.0rem;
+    padding: 10px;
+}
+.header i{
+    font-size: 2.0rem;
+}
+.html5{
+    padding-top: 5px;
+}
+.postName{
+    width: 90%;
+}
+.postName h4, .postName p{
+    margin: 0%;
+}
+.ellipsis{
+    padding-top: 5px;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.icons{
+    font-size: 1.5rem;
+    flex-direction:row;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: auto;
+}
+.icons i:last-child{
+    float: right;
+    padding-right: 10px;
+}
+
+.likes{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto; 
+}
+.usernames{
+    font-weight: bold;
+}
+.description{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin: auto;
+    
+}
